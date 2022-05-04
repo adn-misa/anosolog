@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: CLIENT_ID
+            clientSecret: CLIENT_SECRET
+            scope:
+              - email
+              - profile
+              - openid
+
+trinsic:
+  apiKey: API_KEY
+  credentialDefId: CREDENTIAL_DEFINITION_ID
+  verificationPolicyId: VERIFICATION_POLICY_ID
