@@ -1,13 +1,13 @@
-package com.adnovum.socialloginrelease;
+package com.adnovum.anosolog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SocialLoginReleaseApplication {
+public class AnoSoLogApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SocialLoginReleaseApplication.class, args);
+		SpringApplication.run(AnoSoLogApplication.class, args);
 	}
 
 }

@@ -2,18 +2,17 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Social Login Release</title>
+		<title>AnoSoLog</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdn.tailwindcss.com"></script>
 	</head>
-	<body>
-		<h1>Social Login Release</h1>
-		<div>
-			<p>Free yourself from social login tracking by scanning the generated QR Code below with Trinsic</p>
-			<img src="/credential" alt="QR Invitation"/>
-		</div>
-		<div>
-			<p>Test out your trackless identity with the following verification</p>
-			<a href="/verify.html">Log in without Google</a>
+	<body class="min-h-screen flex items-center bg-gray-200">
+		<div class="flex flex-col items-center text-center w-1/2 mx-auto bg-white rounded p-12 shadow">
+			<img class="w-1/4 mx-auto mb-8" src="/assets/logo.png"/>
+			<div>
+				<p>Scan the QR code with AnoSoLog and free yourself from social login tracking</p>
+				<img class="h-72 mx-auto" src="/credential" alt="QR Invitation"/>
+			</div>
 		</div>
 	</body>
 </html>

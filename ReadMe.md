@@ -1,4 +1,4 @@
-# Social Login Release
+# AnoSoLog
 
 Make your social login now SSI compatible and trackless
 

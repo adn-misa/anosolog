@@ -2,7 +2,7 @@
  * Author : AdNovum Informatik AG
  */
 
-package com.adnovum.socialloginrelease.service;
+package com.adnovum.anosolog.service;
 
 import java.util.List;
 

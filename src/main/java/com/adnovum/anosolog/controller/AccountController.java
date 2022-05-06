@@ -2,12 +2,12 @@
  * Author : AdNovum Informatik AG
  */
 
-package com.adnovum.socialloginrelease.controller;
+package com.adnovum.anosolog.controller;
 
 import java.awt.image.BufferedImage;
 
-import com.adnovum.socialloginrelease.service.QrService;
-import com.adnovum.socialloginrelease.service.TrinsicService;
+import com.adnovum.anosolog.service.QrService;
+import com.adnovum.anosolog.service.TrinsicService;
 import com.google.zxing.WriterException;
 import org.springframework.http.MediaType;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

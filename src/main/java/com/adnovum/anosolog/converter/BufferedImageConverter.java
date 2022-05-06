@@ -2,7 +2,7 @@
  * Author : AdNovum Informatik AG
  */
 
-package com.adnovum.socialloginrelease.converter;
+package com.adnovum.anosolog.converter;
 
 import java.awt.image.BufferedImage;
 
